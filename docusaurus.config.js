@@ -81,28 +81,57 @@ module.exports = {
 
       items: [
         {
-          to: "docs/get-started/",
           label: "Get Started",
           position: "left",
+          items: [
+            {
+              label: "Overview",
+              to: "docs/get-started/",
+            },
+            {
+              label: "Cardano Node",
+              to: "docs/get-started/cardano-node/",
+            },
+            {
+              label: "Development Environment",
+              to: "docs/get-started/development-environment/",
+            },
+            {
+              label: "Cardano Serialization Library",
+              to: "docs/get-started/cardano-serialization-lib/",
+            },
+          ],
         },
         {
-          to: "tools",
-          label: "Builder Tools",
+          label: "Developer Resources",
+          position: "left",
+          items: [
+            {
+              label: "Builder Tools",
+              to: "tools",
+            },
+            {
+              label: "Showcase",
+              to: "showcase",
+            },
+            {
+              label: "Dev Blog",
+              to: "blog/",
+            },
+            {
+              label: "External Docs",
+              href: "https://docs.cardano.org/en/latest/",
+            },
+          ],
+        },
+        {
+          to: "docs/integrate-cardano/",
+          label: "Integrate Cardano",
           position: "left",
         },
         {
-          to: "showcase",
-          label: "Showcase",
-          position: "left",
-        },
-        {
-          to: "blog/",
-          label: "Dev Blog",
-          position: "left",
-        },
-        {
-          href: "https://docs.cardano.org/en/latest/",
-          label: "Docs",
+          to: "docs/smart-contracts/",
+          label: "Smart Contracts",
           position: "left",
         },
         {
